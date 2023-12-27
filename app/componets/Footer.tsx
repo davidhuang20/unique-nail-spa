@@ -12,7 +12,7 @@ const Footer = () => {
           </h1>
           <p className='text-base text-gray-700'>
             Unique Nail Spa<br />
-            All righr reserved &copy;
+            All right reserved &copy;
           </p>
         </div>
         <div className='flex flex-col justify-between py-4'>

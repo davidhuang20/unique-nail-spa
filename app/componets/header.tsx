@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
-import { Button, Nav } from '.';
+import { Button, BookButton, Nav } from '.';
 
 
 const Header = () => {
@@ -22,40 +22,52 @@ const Header = () => {
         </Link>
       </div>
       <div className='flex flex-col lg:hidden w-2/5 md:w-2/3 items-end justify-center'>
-        <Button isOpen={isOpen} handleClick={handleClick}/>
+        <Button isOpen={isOpen} handleClick={handleClick} />
         <Nav isOpen={isOpen} handleClick={handleClick} />
       </div>
       <div className='hidden lg:flex justify-center items-center w-2/3'>
-        <ul className='flex justify-center items-center text-2xl overflow-hidden'>
+        <ul className='flex flex-wrap justify-center items-center text-xl lg:text-2xl overflow-hidden'>
           {
             link.map((linkItem, index) => (
-              <li key={index} className='w-full md:w-48 text-center mb-2 md:mb-0'>
+              <li key={index} className='w-full md:w-40 text-center mb-2 md:mb-0'>
                 {/* Adjusted the width of list items */}
                 <Link href={linkItem.href}>{linkItem.name}</Link>
               </li>
             ))
           }
-          <li className='flex justify-center items-center w-full md:w-24'>
-            <Link href="https://www.instagram.com/uniquenail_brightwater/" target='_blank'>
-              <Image
-                src="/instagram.png"
-                width={50}
-                height={50}
-                alt="instagram logo"
-              />
-            </Link>
-          </li>
-          <li className='flex justify-center items-center w-full md:w-24'>
-            <Link href="https://www.facebook.com/unique.nail.spa.7n/" target='_blank'>
-              <Image
-                src="/facebook.png"
-                width={50}
-                height={50}
-                alt="facebook logo"
-              />
-            </Link>
-          </li>
+
         </ul>
+        <div>
+          <ul  className='flex justify-center items-center'>
+            <li className='flex justify-center items-center w-full md:w-24'>
+              <Link href="https://www.instagram.com/uniquenail_brightwater/" target='_blank'>
+                <Image
+                  src="/instagram.png"
+                  width={50}
+                  height={50}
+                  alt="instagram logo"
+                />
+              </Link>
+            </li>
+            <li className='flex justify-center items-center w-full md:w-24'>
+              <Link href="https://www.facebook.com/unique.nail.spa.7n/" target='_blank'>
+                <Image
+                  src="/facebook.png"
+                  width={50}
+                  height={50}
+                  alt="facebook logo"
+                />
+              </Link>
+            </li>
+            <li>
+              <button className="hover:text-white hover:bg-black border-black border-2 px-4 py-2 w-36">
+                <a className="text-lg" target="_blank" href="https://booking.setmore.com/scheduleappointment/b3d6e120-dcfe-4a09-b20e-21dbcdf88d22">
+                  BOOK NOW
+                </a>
+              </button>
+            </li>
+            </ul>
+          </div>
       </div>
     </header>
   )

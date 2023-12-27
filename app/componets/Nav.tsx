@@ -10,7 +10,7 @@ interface NavProps {
 
 const Nav = ({ isOpen, handleClick }: NavProps) => {
 
-    const link = [{ href: "/", name: "HOME" },{ href: "/services", name: "SERVICE" }, { href: "/gallery", name: "GALLERY" }, { href: "/about", name: "ABOUT" }, { href: "/contact", name: "CONTACT" }]
+    const link = [{ href: "/", name: "HOME" }, { href: "/services", name: "SERVICE" }, { href: "/gallery", name: "GALLERY" }, { href: "/about", name: "ABOUT" }, { href: "/contact", name: "CONTACT" }]
 
     return (
 
@@ -27,6 +27,13 @@ const Nav = ({ isOpen, handleClick }: NavProps) => {
                             <Link onClick={handleClick} href={linkItem.href}>{linkItem.name}</Link>
                         </li>
                     ))}
+                     <li>
+                        <button className="hover:text-white hover:bg-black border-black border-2 px-4 py-2 w-36">
+                            <a className="text-lg" target="_blank" href="https://booking.setmore.com/scheduleappointment/b3d6e120-dcfe-4a09-b20e-21dbcdf88d22">
+                                BOOK NOW
+                            </a>
+                        </button>
+                    </li>
                     <li className='flex justify-center items-center w-full md:w-24  py-5'>
                         <Link onClick={handleClick} href="https://www.instagram.com/uniquenail_brightwater/" target='_blank'>
                             <Image
@@ -47,6 +54,7 @@ const Nav = ({ isOpen, handleClick }: NavProps) => {
                             />
                         </Link>
                     </li>
+                
                 </ul>
             </div>
         </div>

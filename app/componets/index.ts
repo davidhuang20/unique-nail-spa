@@ -17,5 +17,5 @@ export {
     Nav,
     Review,
     Button,
-    PhotoList
+    PhotoList,
 }
