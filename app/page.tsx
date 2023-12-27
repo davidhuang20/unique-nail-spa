@@ -30,7 +30,7 @@ const Page = () => {
           </div>
         </div>
       </section>
-      <section className='flex flex-col md:flex-row justify-between pb-24 px-6 sm:px-24'>
+      <section className='flex flex-col md:flex-row justify-between items-center pb-24 px-6 sm:px-24'>
         <div className='md:w-1/2'>
           <Image
             width={800}
@@ -39,20 +39,20 @@ const Page = () => {
             alt="manicure"
           />
         </div>
-        <div className='flex flex-col justify-center items-center text-center md:w-1/2 py-8 pt-24 md:px-4'>
+        <div className='flex flex-col justify-center items-center text-center md:w-1/2 pt-24 sm:pt-0 py-8 md:px-4'>
           <h3 className='text-xl md:text-xl lg:text-lg xl:text-2xl'>
             ULTIMATE RELAXATION
           </h3>
           <h1 className='text-4xl md:text-4xl lg:text-4xl xl:text-6xl py-4 '>
             Manicure Treatment
           </h1>
-          <div className='text-xl lg:text-xl xl:text-2xl w-full lg:w-1/2 text-center'>
-            Classic Manicure | Gel Manicure | Nourishing Treatments | French Manicure | Nail Art & More!
+          <div className='text-base lg:text-xl xl:text-2xl w-full lg:w-1/2 text-center'>
+            Classic Manicure | Gel Manicure | French Manicure | Nail Art & More!
           </div>
         </div>
       </section>
 
-      <section className='flex flex-col md:flex-row  justify-between pb-24 px-6 sm:px-24'>
+      <section className='flex flex-col md:flex-row  justify-between items-center pb-24 px-6 sm:px-24'>
         <div className='md:hidden md:w-1/2'>
           <Image
             width={800}
