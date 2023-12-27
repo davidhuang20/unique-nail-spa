@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
-import { Button, BookButton, Nav } from '.';
+import { Button, Nav } from '.';
 
 
 const Header = () => {
