@@ -19,7 +19,7 @@ const Page = () => {
           
           />
           <div className='absolute inset-0 flex items-center justify-center text-center text-black text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl break-words p-6 sm:p-60'>
-            Not Your Average Nail Salon
+            Not Your Average Nail Salon.
           </div>
         </div>
       </section>
