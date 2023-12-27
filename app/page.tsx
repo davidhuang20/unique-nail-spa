@@ -28,7 +28,7 @@ const Page = () => {
           <Image
             width={800}
             height={500} // Adjust this value as needed
-            src="/manicure.jpeg"
+            src="/manicure2.png"
             alt="manicure"
           />
         </div>

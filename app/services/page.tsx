@@ -36,7 +36,7 @@ const service = () => {
 
             />
             <div className='absolute inset-0 flex items-center justify-center text-center outline-4 text-white text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl break-words p-6 sm:p-60'>
-            Bringing fashion to your fingertips.
+              Bringing fashion to your fingertips.
             </div>
           </div>
         </section>
@@ -68,7 +68,7 @@ const service = () => {
             <Image
               width={800}
               height={500} // Adjust this value as needed
-              src="/pedicure.jpeg"
+              src="/manicure.jpeg"
               alt="pedicure"
               className='w-1/2'
             />

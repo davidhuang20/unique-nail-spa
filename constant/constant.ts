@@ -21,6 +21,11 @@ export const galleryPic :string[] = [
     "/galleryPics/nail8.jpg",
 ]
 
+export const interior :string[] = [
+    "/store/store1.jpg",
+    "/store/store2.jpg",
+]
+
 export const interiorPic :string[] = [
     "/pedicure.jpeg",
     "/pedicure.jpeg",
