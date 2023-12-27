@@ -22,8 +22,8 @@ export const galleryPic :string[] = [
 ]
 
 export const interior :string[] = [
-    "/store/store1.jpg",
-    "/store/store2.jpg",
+    "/store/store1.jpeg",
+    "/store/store2.jpeg",
 ]
 
 export const interiorPic :string[] = [

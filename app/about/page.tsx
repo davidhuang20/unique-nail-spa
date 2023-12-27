@@ -35,7 +35,7 @@ const about = () => {
                 width={300}
                 height={300} // Adjust this value as needed
                 src={pic}
-                alt={`pedicure-${index}`} // Using index for alt text to make it unique
+                alt={`store-${index}`} // Using index for alt text to make it unique
                 className='w-full md:w-1/3 py-2'
               />
             ))}
