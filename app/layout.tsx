@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { Footer, Header } from '@/app/componets'
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -25,6 +26,7 @@ export default function RootLayout({
           <main className='flex flex-grow'>
             {children}
             <Analytics />
+            <SpeedInsights/>
           </main>
           <Footer />
         </div>
