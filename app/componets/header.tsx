@@ -10,8 +10,8 @@ const Header = () => {
   const handleClick = () => {
     setIsOpen(!isOpen)
   };
-
-  const link = [{ href: "/services", name: "SERVICE" }, { href: "/gallery", name: "GALLERY" }, { href: "/about", name: "ABOUT" }, { href: "/contact", name: "CONTACT" }]
+  // { href: "/services", name: "SERVICE" }
+  const link = [{ href: "/gallery", name: "GALLERY" }, { href: "/about", name: "ABOUT" }, { href: "/contact", name: "CONTACT" }]
   return (
     <header className="w-full border-b py-6 px-6 md:px-24 flex h-30">
       <div className='w-3/5 md:w-1/3 align-middle'>
@@ -38,7 +38,7 @@ const Header = () => {
 
         </ul>
         <div>
-          <ul  className='flex justify-center items-center'>
+          <ul className='flex justify-center items-center'>
             <li className='flex justify-center items-center w-full md:w-24'>
               <Link href="https://www.instagram.com/uniquenail_brightwater/" target='_blank'>
                 <Image
@@ -60,14 +60,14 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <button className="hover:text-white hover:bg-black border-black border-2 px-4 py-2 w-36">
-                <a className="text-lg" target="_blank" href="https://booking.setmore.com/scheduleappointment/b3d6e120-dcfe-4a09-b20e-21dbcdf88d22">
-                  BOOK NOW
-                </a>
-              </button>
+              <a className="hover:text-white hover:bg-black border-black border-2 px-4 py-2 w-36" href="tel:+16319681888">
+                <button className="text-lg">
+                  CALL US
+                </button>
+              </a>
             </li>
-            </ul>
-          </div>
+          </ul>
+        </div>
       </div>
     </header>
   )

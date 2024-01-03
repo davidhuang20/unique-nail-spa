@@ -22,11 +22,13 @@ const Page = () => {
             <div className=' text-center text-black text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl break-words p-6 sm:px-60 sm:pt-60'>
               Not Your Average Nail Salon.
             </div>
-            <button className="mt-8 hover:text-white hover:bg-black border-black border-2 px-4 sm:px-12 py-6">
-              <a className="text-base md:text-2xl lg:text-3xl" target="_blank" href="https://booking.setmore.com/scheduleappointment/b3d6e120-dcfe-4a09-b20e-21dbcdf88d22">
-                BOOK AN APPOINTMENT
+         
+              <a className=" mt-8 hover:text-white hover:bg-black border-black border-2 px-4 sm:px-12 py-6 " href="tel:+16319681888">
+              <button className="text-base md:text-2xl lg:text-3xl">
+              CALL US TODAY
+                </button>
               </a>
-            </button>
+            
           </div>
         </div>
       </section>
@@ -86,11 +88,11 @@ const Page = () => {
           Treat yourself, today. <br />
           Call us for your next appointment
         </h1>
-        <button className="mt-8 hover:text-black hover:bg-white border-white border-2 px-12 py-6">
-          <a className="text-xl md:text-3xl lg:text-4xl" target="_blank" href="https://booking.setmore.com/scheduleappointment/b3d6e120-dcfe-4a09-b20e-21dbcdf88d22">
-            BOOK NOW
-          </a>
-        </button>
+        <a className="mt-8 hover:text-black hover:bg-white border-white border-2 px-12 py-6 " href="tel:+16319681888">
+              <button className="text-xl md:text-3xl lg:text-4xl">
+                CALL US TODAY
+                </button>
+              </a>
       </section>
       <section className='py-24 px-3 sm:px-24'>
         <div className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center pb-12'>
