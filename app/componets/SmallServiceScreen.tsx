@@ -74,7 +74,7 @@ const SmallServiceScreen = () => {
             height={500} // Adjust this value as needed
             src="/waxing.jpeg"
             alt="waxing"
-            className='py-8'
+            className='py-8' 
           />
           <div className='w-full text-center'>
             <h1 className='text-3xl md:text-3xl lg:text-4xl xl:text-5xl'>Waxing</h1>
