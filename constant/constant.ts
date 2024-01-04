@@ -69,7 +69,7 @@ export const manicureService : Service[] = [
     }
     , {
         service: "UV Gel Fullset",
-        price: "60-70"
+        price: `60-70`
     }
     , {
         service: "SNS Powder Gel",
@@ -247,10 +247,10 @@ export const pedicureService2 = [
 ]
 
 
-export const mostPopular : Service= [
+export const mostPopular : Service[] = [
     {
         service: "UV Gel Fullset",
-        price: "60-70"
+        price: `60-70`
     },
     {
         service: "SNS Powder French",
