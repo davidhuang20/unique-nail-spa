@@ -53,71 +53,212 @@ export const clientReviews = [
 
 export const manicureService : Service[] = [
     {
-        service: "Basic Manicure",
-        price: 24
+        service: "Manicure",
+        price: 10
     },
     {
-        service: "Basic Manicure",
-        price: 24
+        service: "Polish Change",
+        price: 8
     },
     {
-        service: "Basic Manicure",
-        price: 24
+        service: "Color Gel",
+        price: 30
     }, {
-        service: "Basic Manicure",
-        price: 24
+        service: "UV Gel Fill-in",
+        price: 50
     }
     , {
-        service: "Basic Manicure",
-        price: 24
+        service: "UV Gel Fullset",
+        price: "60-70"
     }
     , {
-        service: "Basic Manicure",
-        price: 24
+        service: "SNS Powder Gel",
+        price: 40
+    },
+    {
+        service: "SNS Powder French",
+        price: 50
     }
 ]
 
-export const pedicureService = [
+export const nails : Service[] = [
     {
-        service: "Basic Pedicure",
-        price: 24
+        service: "French",
+        price: 5
     },
     {
-        service: "Basic Pedicure",
-        price: 24
+        service: "Shinning Buff",
+        price: 5
     },
     {
-        service: "Basic Pedicure",
-        price: 24
+        service: "Color Gel Soak Off",
+        price: 5
     }, {
-        service: "Basic Pedicure",
-        price: 24
+        service: "Take Off Full Set",
+        price: 10
     }
     , {
-        service: "Basic Pedicure",
-        price: 24
+        service: "Callus Elimination 11",
+        price: 11
     }
     , {
-        service: "Basic Pedicure",
-        price: 24
+        service: "Paraffin",
+        price: 10
     }
 ]
 
-export const mostPopular = [
+export const waxing : Service[] = [
     {
-        service: "Most Basic Pedicure",
-        price: 24
+        service: "Eyebrow",
+        price: 8
     },
     {
-        service: "Most Basic Pedicure",
-        price: 24
+        service: "Lip",
+        price: 7
     },
     {
-        service: "Most Basic Pedicure",
-        price: 24
+        service: "Chin",
+        price: 10
     }, {
-        service: "Most Basic Pedicure",
-        price: 24
+        service: "Under Arm",
+        price: 15
+    }
+    , {
+        service: "Half Arm",
+        price: 20
+    }
+    , {
+        service: "Full Arm",
+        price: 30
+    },
+    
+]
+
+export const waxing1 : Service[] = [
+    {
+        service: "Eyebrow",
+        price: 8
+    },
+    {
+        service: "Lip",
+        price: 7
+    },
+    {
+        service: "Chin",
+        price: 10
+    }, {
+        service: "Under Arm",
+        price: 15
+    }
+    , {
+        service: "Half Arm",
+        price: 20
+    }
+    , {
+        service: "Full Arm",
+        price: 30
+    },
+    
+]
+
+export const waxing2 : Service[] = [
+    {
+        service: "Half Leg",
+        price: 25
+    },
+    {
+        service: "Full Leg",
+        price: 40
+    },
+    {
+        service: "Bikini",
+        price: 25
+    },
+    {
+        service: "Brazillian",
+        price: 40
+    },
+    {
+        service: "Back",
+        price: 45
+    },
+    {
+        service: "Full Leg",
+        price: 40
+    },
+    {
+        service: "Chest",
+        price: 25
+    }
+    
+]
+
+export const pedicureService1 = [
+    {
+        service: "Regular Pedicure",
+        price: 22,
+    },
+    {
+        service: "Speical Pedicure",
+        price: 32,
+    },
+    {
+        service: "Lemon Pedicure",
+        price: 42
+    }, {
+        service: "Cucumber Spa Pedicure ",
+        price: 42
+    }
+    , {
+        service: "Mango Spa Pedicure",
+        price: 52
+    }
+    , {
+        service: "Lavender Spa Pedicure",
+        price: 52
+    },
+]
+
+export const pedicureService2 = [
+    {
+        service: "Pearl Spa Pedicure ",
+        price: 42
+    }
+    , {
+        service: "Green Tea Spa Pedicure",
+        price: 62
+    },
+    {
+        service: "Silk Milk Spa Pedicure",
+        price: 62
+    },
+    {
+        service: "Rose Spa Pedicure",
+        price: 62
+    },
+    {
+        service: "Honey  Spa Pedicure",
+        price: 77
+    }
+    , {
+        service: "Slikey Mil Spa Pedicure",
+        price: 77
+    }
+]
+
+
+export const mostPopular : Service= [
+    {
+        service: "UV Gel Fullset",
+        price: "60-70"
+    },
+    {
+        service: "SNS Powder French",
+        price: 50
+    },
+    {
+        service: "Lavender Spa Pedicure",
+        price: 52
     }
    
 ]

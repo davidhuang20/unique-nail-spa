@@ -10,8 +10,8 @@ const Header = () => {
   const handleClick = () => {
     setIsOpen(!isOpen)
   };
-  // { href: "/services", name: "SERVICE" }
-  const link = [{ href: "/gallery", name: "GALLERY" }, { href: "/about", name: "ABOUT" }, { href: "/contact", name: "CONTACT" }]
+  
+  const link = [ { href: "/services", name: "SERVICE" },{ href: "/gallery", name: "GALLERY" }, { href: "/about", name: "ABOUT" }, { href: "/contact", name: "CONTACT" }]
   return (
     <header className="w-full border-b py-6 px-6 md:px-24 flex h-30">
       <div className='w-3/5 md:w-1/3 align-middle'>
