@@ -45,7 +45,7 @@ const Nav = ({ isOpen, handleClick }: NavProps) => {
                         </Link>
                     </li>
                     <li className='flex justify-center items-center w-full md:w-24  py-5'>
-                        <Link onClick={handleClick} href="https://www.facebook.com/unique.nail.spa.7n/" target='_blank'>
+                        <Link onClick={handleClick} href="https://www.facebook.com/UniqueNail7N/" target='_blank'>
                             <Image
                                 src="/facebook.png"
                                 width={50}

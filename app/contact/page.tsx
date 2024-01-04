@@ -44,7 +44,7 @@ const contact = () => {
               </Link>
             </li>
             <li className='flex justify-start md:justify-center md:w-24'>
-              <Link href="https://www.facebook.com/unique.nail.spa.7n/" target='_blank'>
+              <Link href="https://www.facebook.com/UniqueNail7N/" target='_blank'>
                 <Image
                   src="/facebook.png"
                   width={50}
