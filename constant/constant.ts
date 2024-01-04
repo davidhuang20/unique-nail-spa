@@ -54,18 +54,18 @@ export const clientReviews = [
 export const manicureService : Service[] = [
     {
         service: "Manicure",
-        price: 10
+        price: "10"
     },
     {
         service: "Polish Change",
-        price: 8
+        price: "8"
     },
     {
         service: "Color Gel",
-        price: 30
+        price: "30"
     }, {
         service: "UV Gel Fill-in",
-        price: 50
+        price: "50"
     }
     , {
         service: "UV Gel Fullset",
@@ -73,63 +73,63 @@ export const manicureService : Service[] = [
     }
     , {
         service: "SNS Powder Gel",
-        price: 40
+        price: "40"
     },
     {
         service: "SNS Powder French",
-        price: 50
+        price: "50"
     }
 ]
 
 export const nails : Service[] = [
     {
         service: "French",
-        price: 5
+        price: "5"
     },
     {
         service: "Shinning Buff",
-        price: 5
+        price: "5"
     },
     {
         service: "Color Gel Soak Off",
-        price: 5
+        price:"5"
     }, {
         service: "Take Off Full Set",
-        price: 10
+        price: "10"
     }
     , {
         service: "Callus Elimination 11",
-        price: 11
+        price: "11"
     }
     , {
         service: "Paraffin",
-        price: 10
+        price: "10"
     }
 ]
 
 export const waxing : Service[] = [
     {
         service: "Eyebrow",
-        price: 8
+        price: "8"
     },
     {
         service: "Lip",
-        price: 7
+        price: "7"
     },
     {
         service: "Chin",
-        price: 10
+        price: "10"
     }, {
         service: "Under Arm",
-        price: 15
+        price: "15"
     }
     , {
         service: "Half Arm",
-        price: 20
+        price: "20"
     }
     , {
         service: "Full Arm",
-        price: 30
+        price: "30"
     },
     
 ]
@@ -137,26 +137,26 @@ export const waxing : Service[] = [
 export const waxing1 : Service[] = [
     {
         service: "Eyebrow",
-        price: 8
+        price: "8"
     },
     {
         service: "Lip",
-        price: 7
+        price: "7"
     },
     {
         service: "Chin",
-        price: 10
+        price: "10"
     }, {
         service: "Under Arm",
-        price: 15
+        price: "15"
     }
     , {
         service: "Half Arm",
-        price: 20
+        price: "20"
     }
     , {
         service: "Full Arm",
-        price: 30
+        price: "30"
     },
     
 ]
@@ -164,31 +164,31 @@ export const waxing1 : Service[] = [
 export const waxing2 : Service[] = [
     {
         service: "Half Leg",
-        price: 25
+        price: "25"
     },
     {
         service: "Full Leg",
-        price: 40
+        price: "40"
     },
     {
         service: "Bikini",
-        price: 25
+        price: "25"
     },
     {
         service: "Brazillian",
-        price: 40
+        price: "40"
     },
     {
         service: "Back",
-        price: 45
+        price: "45"
     },
     {
         service: "Full Leg",
-        price: 40
+        price: "40"
     },
     {
         service: "Chest",
-        price: 25
+        price: "25"
     }
     
 ]
@@ -254,11 +254,11 @@ export const mostPopular : Service[] = [
     },
     {
         service: "SNS Powder French",
-        price: 50
+        price: "50"
     },
     {
         service: "Lavender Spa Pedicure",
-        price: 52
+        price: "52"
     }
    
 ]

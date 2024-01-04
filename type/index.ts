@@ -5,6 +5,6 @@ export interface Review {
 
 export interface Service {
   service: string;
-  price: number;
+  price:  string;
 };
 
