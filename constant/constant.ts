@@ -196,53 +196,53 @@ export const waxing2 : Service[] = [
 export const pedicureService1 = [
     {
         service: "Regular Pedicure",
-        price: 22,
+        price: "22",
     },
     {
         service: "Speical Pedicure",
-        price: 32,
+        price: "32",
     },
     {
         service: "Lemon Pedicure",
-        price: 42
+        price: "42"
     }, {
         service: "Cucumber Spa Pedicure ",
-        price: 42
+        price: "42"
     }
     , {
         service: "Mango Spa Pedicure",
-        price: 52
+        price: "52"
     }
     , {
         service: "Lavender Spa Pedicure",
-        price: 52
+        price: "52"
     },
 ]
 
-export const pedicureService2 = [
+export const pedicureService2: Service[]  = [
     {
         service: "Pearl Spa Pedicure ",
-        price: 42
+        price: "42"
     }
     , {
         service: "Green Tea Spa Pedicure",
-        price: 62
+        price: "62"
     },
     {
         service: "Silk Milk Spa Pedicure",
-        price: 62
+        price: "62"
     },
     {
         service: "Rose Spa Pedicure",
-        price: 62
+        price: "62"
     },
     {
         service: "Honey  Spa Pedicure",
-        price: 77
+        price: "77"
     }
     , {
         service: "Slikey Mil Spa Pedicure",
-        price: 77
+        price: "77"
     }
 ]
 
