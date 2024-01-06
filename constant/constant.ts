@@ -98,7 +98,7 @@ export const nails : Service[] = [
         price: "10"
     }
     , {
-        service: "Callus Elimination 11",
+        service: "Callus Elimination",
         price: "11"
     }
     , {
