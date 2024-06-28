@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { interior, journyPic } from '../../constant/constant'
 import { PhotoList } from '../componets'
 
-const about = () => {
+const Page = () => {
   return (
     <div className='px-4 sm:px-24'>
       <section className='md:h-1/8 py-6 md:py-16 text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl px-12 flex items-center justify-center'>
@@ -49,4 +49,4 @@ const about = () => {
   )
 }
 
-export default about
+export default Page

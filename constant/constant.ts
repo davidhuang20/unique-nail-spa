@@ -10,16 +10,49 @@ export const journyPic :string[] = [
     "/nailPics/nail8.jpg",
 ]
 
-export const galleryPic :string[] = [
+export const galleryPic: string[] = [
     "/galleryPics/nail1.jpg",
     "/galleryPics/nail2.jpg",
     "/galleryPics/nail3.jpg",
     "/galleryPics/nail4.jpg",
-    "/galleryPics/nail5.jpg",    
+    "/galleryPics/nail5.jpg",
     "/galleryPics/nail6.jpg",
     "/galleryPics/nail7.jpg",
     "/galleryPics/nail8.jpg",
-]
+    "/galleryPics/nail9.jpg",
+    "/galleryPics/nail10.jpg",
+    "/galleryPics/nail11.jpg",
+    "/galleryPics/nail12.jpg",
+    "/galleryPics/nail13.jpg",
+    "/galleryPics/nail14.jpg",
+    "/galleryPics/nail15.jpg",
+    "/galleryPics/nail16.jpg",
+    "/galleryPics/nail17.jpg",
+    "/galleryPics/nail18.jpg",
+    "/galleryPics/nail19.jpg",
+    "/galleryPics/nail20.jpg",
+    "/galleryPics/nail21.jpg",
+    "/galleryPics/nail22.jpg",
+    "/galleryPics/nail23.jpg",
+    "/galleryPics/nail24.jpg",
+    "/galleryPics/nail25.jpg",
+    "/galleryPics/nail26.jpg",
+    "/galleryPics/nail27.jpg",
+    "/galleryPics/nail28.jpg",
+    "/galleryPics/nail29.jpg",
+    "/galleryPics/nail30.jpg",
+    "/galleryPics/nail31.jpg",
+    "/galleryPics/nail32.jpg",
+    "/galleryPics/nail33.jpg",
+    "/galleryPics/nail34.jpg",
+    "/galleryPics/nail35.jpg",
+    "/galleryPics/nail36.jpg",
+    "/galleryPics/nail37.jpg",
+    "/galleryPics/nail38.jpg",
+    "/galleryPics/nail39.jpg",
+    "/galleryPics/nail40.jpg"
+];
+
 
 export const interior :string[] = [
     "/store/store1.jpeg",

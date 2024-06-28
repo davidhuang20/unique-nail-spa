@@ -3,10 +3,16 @@ import { manicureService, pedicureService1, pedicureService2, mostPopular, combi
 import Image from 'next/image'
 import { Service } from "@/type"
 import { ServiceCard } from '.'
+import Link from 'next/link'
 
 const SmallServiceScreen = () => {
   return (
     <div>
+      <div  className='underline py-4 text-center text-xl sm:text-xl md:text-2xl lg;text-3xl '>
+            <Link href={'/gallery'}>              
+              Check out out latest work
+            </Link>
+        </div>
       <section className='flex flex-col popular-option items-center w-full'>
         <div className='w-full text-center'>
           <h1 className='text-3xl md:text-3xl lg:text-4xl xl:text-5xl'>Popular Options</h1>
@@ -20,7 +26,7 @@ const SmallServiceScreen = () => {
           </div>
 
         </div>
-
+      
       </section>
 
       <section className='flex flex-col justify-center py-6'>

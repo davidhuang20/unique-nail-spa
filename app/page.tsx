@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+'use client'
+import React from 'react'
 import Image from 'next/image'
 import { clientReviews, journyPic } from '../constant/constant'
 import ReviewList from './componets/Review'

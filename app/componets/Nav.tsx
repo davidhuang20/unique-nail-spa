@@ -9,7 +9,7 @@ interface NavProps {
 }
 
 const Nav = ({ isOpen, handleClick }: NavProps) => {
-    const link = [{ href: "/", name: "HOME" },{ href: "/services", name: "SERVICE" }, { href: "/gallery", name: "GALLERY" }, { href: "/about", name: "ABOUT" }, { href: "/contact", name: "CONTACT" }]
+    const link = [{ href: "/", name: "HOME" },{ href: "/gallery", name: "GALLERY" },{ href: "/services", name: "SERVICE" }, { href: "/about", name: "ABOUT" }, { href: "/contact", name: "CONTACT" }]
 
     return (
 

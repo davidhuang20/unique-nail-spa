@@ -2,8 +2,9 @@ import React from 'react'
 import { manicureService, pedicureService1,pedicureService2, mostPopular, combination, nails, waxing1, waxing2 } from '../../constant/constant'
 import Image from 'next/image'
 import { ServiceCard, SmallServiceScreen } from '../componets/index'
+import Link from 'next/link'
 
-const service = () => {
+const Page = () => {
   return (
     <div className='py-12'>
       <div className='block md:hidden px-12'>
@@ -39,6 +40,11 @@ const service = () => {
               Bringing fashion to your fingertips.
             </div>
           </div>
+          <div  className='underline py-4 text-center text-xl sm:text-xl md:text-2xl lg;text-3xl '>
+            <Link href={'/gallery'}>              
+              Check out out latest work
+            </Link>
+            </div>
         </section>
         <section className='flex flex-col popular-option items-center w-full'>
           <div className='w-full text-center'>
@@ -136,4 +142,4 @@ const service = () => {
   )
 }
 
-export default service
+export default Page
