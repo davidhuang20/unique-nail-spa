@@ -95,22 +95,22 @@ export const manicureService : Service[] = [
     },
     {
         service: "Color Gel",
-        price: "30"
+        price: "32"
     }, {
         service: "UV Gel Fill-in",
-        price: "50"
+        price: "55"
     }
     , {
         service: "UV Gel Fullset",
-        price: `60-70`
+        price: `65-75`
     }
     , {
         service: "SNS Powder Gel",
-        price: "40"
+        price: "42"
     },
     {
         service: "SNS Powder French",
-        price: "50"
+        price: "52"
     }
 ]
 
@@ -143,7 +143,7 @@ export const nails : Service[] = [
 export const waxing : Service[] = [
     {
         service: "Eyebrow",
-        price: "8"
+        price: "10"
     },
     {
         service: "Lip",
@@ -170,7 +170,7 @@ export const waxing : Service[] = [
 export const waxing1 : Service[] = [
     {
         service: "Eyebrow",
-        price: "8"
+        price: "10"
     },
     {
         service: "Lip",
@@ -229,53 +229,49 @@ export const waxing2 : Service[] = [
 export const pedicureService1 = [
     {
         service: "Regular Pedicure",
-        price: "22",
+        price: "25",
     },
     {
         service: "Speical Pedicure",
-        price: "32",
+        price: "35",
     },
     {
         service: "Lemon Pedicure",
-        price: "42"
+        price: "45"
     }, {
         service: "Cucumber Spa Pedicure ",
-        price: "42"
+        price: "45"
     }
     , {
         service: "Mango Spa Pedicure",
-        price: "52"
+        price: "55"
     }
     , {
         service: "Lavender Spa Pedicure",
-        price: "52"
+        price: "55"
     },
 ]
 
 export const pedicureService2: Service[]  = [
     {
         service: "Pearl Spa Pedicure ",
-        price: "42"
+        price: "65"
     }
     , {
         service: "Green Tea Spa Pedicure",
-        price: "62"
-    },
-    {
-        service: "Silk Milk Spa Pedicure",
-        price: "62"
+        price: "65"
     },
     {
         service: "Rose Spa Pedicure",
-        price: "62"
+        price: "65"
     },
     {
         service: "Honey  Spa Pedicure",
-        price: "77"
+        price: "80"
     }
     , {
-        service: "Slikey Mil Spa Pedicure",
-        price: "77"
+        service: "Slikey Milk Spa Pedicure",
+        price: "80"
     }
 ]
 
@@ -283,15 +279,15 @@ export const pedicureService2: Service[]  = [
 export const mostPopular : Service[] = [
     {
         service: "UV Gel Fullset",
-        price: `60-70`
+        price: `65-75`
     },
     {
         service: "SNS Powder French",
-        price: "50"
+        price: "52"
     },
     {
         service: "Lavender Spa Pedicure",
-        price: "52"
+        price: "55"
     }
    
 ]
